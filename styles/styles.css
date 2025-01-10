@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+/* nav styles */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+    
+}
+
+.nav-btn{
+    
+    padding: 7px 10px;
+    border-radius: 5px;
+    border-color: gray;
+    
+}
+
+.nav-btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}
