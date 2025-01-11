@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
 }
-body{
-    background-color: rgb(252, 246, 246);
+body {
+  background-color: rgb(252, 246, 246);
 }
 /* common styles */
 .section-text {
@@ -17,20 +17,20 @@ body{
   letter-spacing: 0%;
   text-align: left;
 }
-.common-btn:hover{
-    background-color: green;
-    color: red;
-    cursor: pointer;
+.common-btn:hover {
+  background-color: green;
+  color: red;
+  cursor: pointer;
 }
 
-.description{
+.description {
   color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 /* nav styles */
@@ -95,91 +95,90 @@ text-align: left;
 
 /* pillar section styles */
 
-.pillar-section{
-    width: 1250px;
-    margin: 50px auto;
+.pillar-section {
+  width: 1250px;
+  margin: 50px auto;
 }
 
-.pillar-title{
-    color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 36px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 15px;
+.pillar-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
 }
-.pillar-container{
+.pillar-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32;
 
-margin: 0 auto;
-display: flex;
-align-items: center;
-gap: 32;
-
-justify-content: space-between;
-}
-
-.pillar-div{
-    box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-width: 280px;
-height: 220px;
-display: flex;
-gap: 20px;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 10px;
+  justify-content: space-between;
 }
 
-.pillar-title-2{
+.pillar-div {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 280px;
+  height: 220px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.pillar-title-2 {
   color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 /* yunus section style */
-.yunus{
+.yunus {
   box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-background-image: url("../assets/quote-bg.png");
-background-repeat: no-repeat;
-background-position: 10px 20px;
-position: static;
-width: 1250px;
-height: 240px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 48px 24px 48px 24px;
-margin: 0 auto;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  position: static;
+  width: 1250px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px 24px 48px 24px;
+  margin: 0 auto;
 }
 
-.yunus-container{
+.yunus-container {
   gap: 14px;
   display: flex;
   flex-direction: column;
 }
 
-.yunus-title{
+.yunus-title {
   color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
 }
 
-.chief-adviser{
+.chief-adviser {
   color: rgba(14, 14, 14, 0.6);
   font-family: Fira Sans;
   font-size: 16px;
@@ -187,4 +186,61 @@ line-height: 24px;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+/* opinion section title */
+.opinion-section {
+  width: 1250px;
+  margin: 40px auto 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.opinion-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.opinion-container {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 27px;
+}
+
+.question-title-container{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+.question-container{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+
+.question-ans{
+  
+border: 1px solid rgba(14, 14, 14, 0.15);
+display: flex;
+
+box-sizing: border-box;
+justify-content: space-between;
+padding: 10px;
+}
+#options{
+  padding: 4px;
+  color: rgb(14, 14, 14);
+  box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+
+background: rgba(9, 161, 92, 0.15);
 }
